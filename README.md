@@ -55,6 +55,14 @@ if (userMessage.includes("hi")) {
 The website is designed with a mobile-first approach, ensuring smooth and consistent performance across all screen sizes — from desktops to smartphones.
 🌐 Live Demo
 🔗 Portfolio Link: https://sasindra143.github.io/My-Portfolio/
+##Screen Shots
+<img width="1895" height="824" alt="Screenshot 2025-11-06 011012" src="https://github.com/user-attachments/assets/87fd1e66-262a-4554-8252-0d0ec1a8ec72" />
+<img width="1895" height="824" alt="Screenshot 2025-11-06 011054" src="https://github.com/user-attachments/assets/2d2ae32a-54c5-4f47-9957-533068a6936e" />
+<img width="1890" height="826" alt="Screenshot 2025-11-06 011113" src="https://github.com/user-attachments/assets/f697cd94-f4c3-4211-90d5-f55001b16983" />
+<img width="1879" height="817" alt="Screenshot 2025-11-06 011133" src="https://github.com/user-attachments/assets/5a68dca3-4000-4a21-9aec-69bb2ea415ff" />
+<img width="1140" height="727" alt="Screenshot 2025-11-06 011204" src="https://github.com/user-attachments/assets/5d8672a8-3e46-4564-a6e8-e8d0efc0f558" />
+<img width="1873" height="797" alt="Screenshot 2025-11-06 011224" src="https://github.com/user-attachments/assets/99be836c-84ee-4224-8d3d-fb1be79327c5" />
+
 
 👨‍💻 Developer Information
 Developer: Sasindra Madduri
