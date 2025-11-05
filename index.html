@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Madduri Sasindra — Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Madduri Sasindra — Full Stack Developer | Java Enthusiast | Machine Learning Explorer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230a84ff'/%3E%3Ctext x='32' y='40' font-size='28' text-anchor='middle' fill='white' font-family='Arial'%3EMS%3C/text%3E%3C/svg%3E" />
+    <!-- GSAP -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- particles.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Main JS -->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="bg-particles" class="particles global"></div>
+    <!-- Preloader -->
+    <div id="preloader" aria-hidden="true">
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <p>Loading portfolio…</p>
+    </div>
+
+    <!-- Header / Nav -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="#home" class="logo" aria-label="Go to home">Sasindra Madduri</a>
+            <nav class="nav" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <nav class="mobile-nav" aria-label="Mobile" id="mobileNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section home-section" aria-label="Home">
+        <div class="container home-content">
+            <div class="profile">
+                <div class="avatar-wrap">
+                    <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1762158154/WhatsApp_Image_2025-10-18_at_06.01.00_7154644e_wu1zgt.jpg" alt="Madduri Sasindra" class="avatar" />
+                </div>
+            </div>
+            <div class="intro">
+                <h1>Hi, I’m <span class="accent">Madduri Sasindra</span> 👋</h1>
+                <h2 id="typing" aria-live="polite">Full Stack Developer | Java Enthusiast | Exploring AI Tools</h2>
+                <div class="cta">
+                    <a class="btn primary" href="assets/Madduri_Sasindra_Resume.pdf" download>Download Resume</a>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/sasindra-madduri" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sasindra143" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://wa.me/919959732476" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <!--<a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="toTop" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about-section" aria-label="About">
+        <div class="container about-grid">
+            <div class="about-photo">
+                <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1762158154/WhatsApp_Image_2025-10-18_at_06.01.00_7154644e_wu1zgt.jpg" alt="Profile" />
+            </div>
+            <div class="about-text">
+                <h3>About Me</h3>
+                <p>
+                  I’m Madduri Sasindra, a passionate Full Stack Web Developer skilled in building responsive, creative, and user-focused websites using HTML, CSS, and JavaScript.
+
+I have successfully completed freelance work for PR SkillVerse, a SAP Training Institute, where I developed and designed a modern, responsive website with a structured layout, smooth navigation, and visually engaging interface for students and professionals.
+
+Beyond web development, I’m also exploring AI tools, Prompt Engineering, and Machine Learning to expand my technical expertise and apply innovation in real-world projects. One of my key academic works, “Online Fraud Transaction Detection Using Machine Learning,” reflects my interest in data-driven problem solving and digital security.
+
+I’m always eager to learn, build, and collaborate on projects that combine creativity, functionality, and technology.
+                </p>
+                <p>
+                    My final year project, <strong>Online Fraud Transaction Detection</strong>, leverages Python, Scikit‑Learn, XGBoost, and Streamlit to identify anomalous transactions. I love working across the stack with HTML/CSS/JS, React, Java (J2EE, JSP, Hibernate), and MySQL.
+                </p>
+                <ul class="quick-facts">
+                    <li><i class="fa-solid fa-location-dot"></i> Bangalore, BTM Layout</li>
+                    <li><i class="fa-solid fa-phone"></i> 9959732476</li>
+                    <li><i class="fa-solid fa-envelope"></i> sasindragandla@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education-section" aria-label="Education">
+        <div class="container">
+            <h3>Education</h3>
+            <div class="timeline">
+                <div class="line"></div>
+                <div class="edu-card">
+                    <div class="dot"></div>
+                    <h4>B.Tech — Krishna Chaitanya Institute of Technology and Sciences, Markapur</h4>
+                    <p>Computer Science and Engineering, Percentage: 66.22%</p>
+                </div>
+                <div class="edu-card">
+                    <div class="dot"></div>
+                    <h4>Intermediate — Sri Sadhana Junior College, Markapur</h4>
+                    <p>MPC / Science Stream — 765 // Marks</p>
+                </div>
+                <div class="edu-card">
+                    <div class="dot"></div>
+                    <h4>10th — ZP High School, Sunkesula </h4>
+                    <p>SSC — 9.3 // CGPA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section" aria-label="Skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                <div class="skill"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="skill"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                <div class="skill"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+                <div class="skill"><i class="fa-brands fa-react"></i><span>React</span></div>
+                <div class="skill"><i class="fa-solid fa-leaf"></i><span>Hibernate</span></div>
+                <div class="skill"><i class="fa-solid fa-server"></i><span>J2EE</span></div>
+                <div class="skill"><i class="fa-solid fa-file-code"></i><span>JSP</span></div>
+                <div class="skill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                <!--<div class="skill"><i class="fa-solid fa-robot"></i><span>Machine Learning</span></div>
+                <div class="skill"><i class="fa-solid fa-cloud"></i><span>DevOps</span></div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects-section" aria-label="Projects">
+        <div class="container">
+            <h3>Projects</h3>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1762369231/Gemini_Generated_Image_vamfs8vamfs8vamf_qgxjd7.png" alt="Fraud Detection" />
+                            <h4>Online Fraud Transaction Detection</h4>
+                        </div>
+                        <div class="card-back">
+                            <p>**Online Fraud Transaction Detection using Machine Learning** – A Python-based system built to identify fraudulent financial transactions in real time using advanced algorithms like **XGBoost**. Developed and visualized with **Jupyter, NumPy, Pandas, Matplotlib, and Seaborn**, and deployed through **Streamlit** for interactive analysis. The model is trained and saved using **scikit-learn, joblib**, and **Python 3.10.0** for efficient performance and accuracy.
+</p>
+                            <div class="card-actions">
+                                <a class="btn ghost" href="#" target="_blank">Live Demo</a>
+                                <a class="btn primary" href="https://github.com/sasindra143/OnLine-Fraud-Transaction-Detection-Using-Machine-Learning" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1746776398/Screenshot_2025-05-09_130944_dquy84.png" alt="Farmer to Customer" />
+                            <h4>Farmer to Customer Interface</h4>
+                        </div>
+                        <div class="card-back">
+                            <p>Farmer to Customer – A web-based platform built using HTML, CSS, and JavaScript that connects farmers directly with customers, eliminating middlemen. The website showcases fresh farm products, pricing, and farmer details with an interactive and responsive user interface. Designed to promote transparency, fair trade, and support for local farmers through a seamless online experience.</p>
+                            <div class="card-actions">
+                                <a class="btn ghost" href="https://sasindra143.github.io/Farmer-Customer-Interface/" target="_blank">Live Demo</a>
+                                <a class="btn primary" href="https://github.com/sasindra143/Farmer-Customer-Interface" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1762369420/Gemini_Generated_Image_o7zafko7zafko7za_rhubxw.png" alt="Coffee Website" />
+                            <h4>Coffee Website</h4>
+                        </div>
+                        <div class="card-back">
+                            <p>Coffee Shop Website – A beautifully designed and fully responsive website built using HTML, CSS, and JavaScript to showcase coffee products, menu, and offers. It features smooth animations, an attractive landing page, and an intuitive layout for easy navigation. Designed to enhance the online presence of coffee shops and attract customers with a cozy, modern aesthetic.</p>
+                            <div class="card-actions">
+                                <a class="btn ghost" href="https://sasindra143.github.io/Coffe-Website/" target="_blank">Live Demo</a>
+                                <a class="btn primary" href="https://github.com/sasindra143/Coffe-Website" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+<div class="project-card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="https://res.cloudinary.com/dvknx0hpm/image/upload/v1762370359/Screenshot_2025-11-06_004853_toc51f.png" alt="PR Skill Verse Website" />
+            <div class="project-label">Freelancing Project</div>
+            <h4>PR Skill Verse – SAP Training Institute</h4>
+        </div>
+        <div class="card-back">
+            <p><strong>PR Skill Verse</strong> – A freelancing project developed for a professional SAP Training Institute using <strong>HTML, CSS, and JavaScript</strong>. The website highlights courses, testimonials, and contact details with an attractive and responsive design. Hosted on <strong>Netlify</strong> with the custom domain <a href="https://www.prskillverse.com" target="_blank">www.prskillverse.com</a> to provide smooth access and professional online presence.</p>
+            <div class="card-actions">
+                <a class="btn ghost" href="https://www.prskillverse.com" target="_blank">Live Demo</a>
+                <a class="btn primary" href="https://github.com/sasindra143/PRSkillVerse" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section" aria-label="Contact">
+        <div class="container contact-grid">
+            <div class="map-wrap">
+                <iframe title="Bangalore BTM Layout" src="https://www.google.com/maps?q=BTM%20Layout%2C%20Bengaluru&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-wrap">
+                <h3>Contact Me</h3>
+                <form id="contactForm">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" required />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required />
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary full">Send Message</button>
+                    <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="foot-brand">© 2025 Madduri Sasindra — All Rights Reserved</div>
+            <div class="foot-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="foot-socials">
+                <a href="https://www.linkedin.com/in/sasindra-madduri" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sasindra143" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+               <!-- <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>-->
+                <a href="https://wa.me/919959732476" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <canvas id="footerParticles" aria-hidden="true"></canvas>
+    </footer>
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Sasi Bot Chat Widget -->
+    <button id="chatToggle" class="chat-toggle" aria-label="Open Sasi Bot chat" aria-expanded="false">
+        <i class="fa-solid fa-comment-dots"></i>
+    </button>
+    <div class="chat-pill" id="chatPill">How can I help you?</div>
+    <div id="chatWidget" class="chat-widget" aria-live="polite" aria-label="Sasi Bot chat window">
+        <div class="chat-header">
+            <div class="chat-title">
+                <span class="bot-indicator"></span>
+                Sasi Bot
+            </div>
+            <div class="chat-actions">
+                <button id="chatNew" class="chat-new" aria-label="Start new chat" title="New Chat"><i class="fa-solid fa-plus"></i></button>
+                <button id="chatClose" class="chat-close" aria-label="Close chat" title="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <div id="chatBody" class="chat-body">
+            <!-- messages injected here -->
+        </div>
+        <form id="chatForm" class="chat-input" autocomplete="off">
+            <input id="chatMessage" type="text" placeholder="Type your message..." aria-label="Type your message" required />
+            <button type="submit" class="btn primary">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
